@@ -1,0 +1,3 @@
+set_io clock P7
+set_io resetn P8
+set_io LED E1

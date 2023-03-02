@@ -1,0 +1,1 @@
+nextpnr-ice40 --hx8k --package cb132 --json ./build/artifacts/syn/synth.json --pcf ./src/constraints/alchitry.pcf  --asc ./build/artifacts/pnr/top.asc --freq 100

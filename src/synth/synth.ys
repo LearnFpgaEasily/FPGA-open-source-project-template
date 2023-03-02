@@ -1,0 +1,4 @@
+read -sv src/hdl/top.v
+hierarchy -top top
+proc; opt; techmap; opt
+synth_ice40 -top top -json build/artifacts/syn/synth.json
