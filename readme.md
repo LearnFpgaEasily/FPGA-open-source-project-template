@@ -1,0 +1,1 @@
+This template is a part of the tutorial [From HDL to FPGA Bitstream with Open Source toolchain](https://learn-fpga-easily.com/from-hdl-to-fpga-bitstream-with-open-source-toolchain/)  on the blog [Learn Fpga Easily](https://learn-fpga-easily.com/)
