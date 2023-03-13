@@ -1,4 +1,4 @@
-read -sv src/hdl/top.v
-hierarchy -top top
+read -sv build/artifacts/netlist/AlchitryCUTop.v
+hierarchy -top AlchitryCUTop
 proc; opt; techmap; opt
-synth_ice40 -top top -json build/artifacts/syn/synth.json
+synth_ice40 -top AlchitryCUTop -json build/artifacts/syn/synth.json
