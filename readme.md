@@ -1,1 +1,3 @@
-This template is a part of the tutorial [From HDL to FPGA Bitstream with Open Source toolchain](https://learn-fpga-easily.com/from-hdl-to-fpga-bitstream-with-open-source-toolchain/)  on the blog [Learn Fpga Easily](https://learn-fpga-easily.com/)
+This template is a part of the tutorial [From HDL to FPGA Bitstream with Open Source toolchain](https://learn-fpga-easily.com/from-hdl-to-fpga-bitstream-with-open-source-toolchain/) on the blog [Learn Fpga Easily](https://learn-fpga-easily.com/)
+
+The branch named "Chisel" is an upgrade of this tutorial where we use chisel instead of verilog for the design. The upgraded version of the article is : [[how to] From Chisel to Bitstream](https://learn-fpga-easily.com/how-to-from-chisel-to-bitstream/)
