@@ -10,7 +10,7 @@ bitstream: build/artifacts/pnr/top.asc
 load: build/artifacts/bitstream/bitstream.bin
 	docker run --privileged -v $(PWD):/project/ -w="/project/" icestorm /bin/bash -c "./src/load/load.sh > ./build/logs/load_log.txt 2>&1"
 
-all: build_tree synthesis pnr bitstream load
+all: clean build_tree synthesis pnr bitstream load
 
 clean:
 	rm -rf build/
