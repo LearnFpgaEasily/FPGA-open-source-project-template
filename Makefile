@@ -4,7 +4,7 @@ netlist: src/chisel/main.scala
 			   -v $(PWD)/build/artifacts/netlist:/project/build/artifacts/netlist       \
 			   -v $(PWD)/build/logs/:/project/build/logs                                \
 			   -w="/project/"                                                           \
-			   chisel /bin/bash -c "source '../root/.sdkman/bin/sdkman-init.sh'; sbt run > ./build/logs/netlist_log.txt 2>&1"
+			   chisel /bin/bash -c "sbt run > ./build/logs/netlist_log.txt 2>&1"
 
 synthesis: build/artifacts/netlist/AlchitryCUTop.v
 	docker run -v $(PWD):/project/ -w="/project/" yosys /bin/bash -c "yosys ./src/synth/synth.ys > ./build/logs/syn_log.txt 2>&1"
